@@ -1,0 +1,52 @@
+.food-results {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.food-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.food-info {
+  max-width: 60%;
+}
+
+.food-action {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gram-input {
+  width: 70px;
+  padding: 6px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+}
+
+.add-btn {
+  background: #6a11cb;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.add-btn:hover {
+  background: #2575fc;
+}

@@ -9,16 +9,21 @@ body {
     overflow: hidden;
 }
 
-/* Container for the login page */
-.loginPage {
+.error-message{
+    color: red;
+}
+
+/* Ensure signupPage matches loginPage */
+.signupPage {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 100vh; /* Full screen height */
 }
 
-/* Styled container for login form */
-.login-container {
+/* Ensure the signup form looks identical to login */
+.signup-container {
     background: rgba(255, 255, 255, 0.9);
     padding: 40px;
     border-radius: 15px;
@@ -86,18 +91,3 @@ button:hover {
 .login-link:hover {
     color: #2575fc;
 }
-.noAccount{
-    color: #6a11cb;
-}
-
-  
-.log-sign-logo {
-    display: block;
-    margin: 0 auto;
-    width: 100px;
-    height: auto;
-    position: relative;
-    top: 20px;
-    z-index: 2;
-  }
-  
